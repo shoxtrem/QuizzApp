@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quizz App</string>
+    <string name="question_1">How many Wonders of the Ancient World are there?</string>
+    <string name="question_2">How tall is the One World Trade Center?</string>
+    <string name="question_3">What is the tallest building in the world?</string>
+    <string name="question_4">How much did the most expensive building cost?</string>
+    <string name="question_5">Who designed the Louvre Pyramid?</string>
+    <string name="question_6">How wide, at its narrowest, is Keret House in warsaw?</string>
+    <string name="question_7">What is the 3rd largest cathedral in the world?</string>
+    <string name="question_1_choice_1">8</string>
+    <string name="question_1_choice_2">12</string>
+    <string name="question_1_choice_3">7</string>
+    <string name="question_1_choice_4">10</string>
+    <string name="question_2_choice_1">541m</string>
+    <string name="question_2_choice_2">961m</string>
+    <string name="question_2_choice_3">1,789ft</string>
+    <string name="question_2_choice_4">1,776ft</string>
+    <string name="question_4_choice_1">$15bn</string>
+    <string name="question_4_choice_2">$22bn</string>
+    <string name="question_4_choice_3">$6.5bn</string>
+    <string name="question_4_choice_4">$10bn</string>
+    <string name="question_5_choice_1">Louis Ernest Lheureux</string>
+    <string name="question_5_choice_2">Frank Lloyd Wright</string>
+    <string name="question_5_choice_3">Le Corbusier</string>
+    <string name="question_5_choice_4">I. M. Pei. </string>
+    <string name="question_7_choice_1">Saint Paul\'s in London</string>
+    <string name="question_7_choice_2">Santa Maria del Fiore in Firenze</string>
+    <string name="question_7_choice_3">Saint Peter\'s in Roma</string>
+    <string name="question_7_choice_4">Notre Dame in Paris</string>
+    <string name="submitButton">Get your score!</string>
+</resources>
