@@ -108,31 +108,31 @@ public class MainActivity extends AppCompatActivity {
                 + checkRadioButton(R.id.question_4, R.id.question_4_good_answer1)
                 + checkRadioButton(R.id.question_5, R.id.question_5_good_answer1)
                 + checkRadioButton(R.id.question_7, R.id.question_7_good_answer1);
-
+        String scoreMessage = getResources().getString(R.string.scoreMessage, totalScore);
         switch (totalScore) {
             case 0:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7, Too bad, try again.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " Too bad, try again.", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7, at least it's not 0.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " at least it's not 0.", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7, try to make it better", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " try to make it better.", Toast.LENGTH_SHORT).show();
                 break;
             case 3:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7, nice!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " nice!", Toast.LENGTH_SHORT).show();
                 break;
             case 4:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7. Not bad!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " Not bad!", Toast.LENGTH_SHORT).show();
                 break;
             case 5:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7, pretty good!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " pretty good!", Toast.LENGTH_SHORT).show();
                 break;
             case 6:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7, you're almost there!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " you're almost there!", Toast.LENGTH_SHORT).show();
                 break;
             case 7:
-                Toast.makeText(MainActivity.this, "You got: " + totalScore + " out of 7! Congratulations!! Perfect!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, scoreMessage + " Congratulations!! Perfect!", Toast.LENGTH_SHORT).show();
                 break;
         }
 

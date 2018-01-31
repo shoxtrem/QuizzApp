@@ -28,4 +28,5 @@
     <string name="question_7_choice_3">Saint Peter\'s in Roma</string>
     <string name="question_7_choice_4">Notre Dame in Paris</string>
     <string name="submitButton">Get your score!</string>
+    <string name="scoreMessage">You got: %d  out of 7,</string>
 </resources>
