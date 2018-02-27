@@ -6,7 +6,7 @@
     <string name="question_4">How much did the most expensive building cost?</string>
     <string name="question_5">Who designed the Louvre Pyramid?</string>
     <string name="question_6">How wide, at its narrowest, is Keret House in warsaw?</string>
-    <string name="question_7">What is the 3rd largest cathedral in the world?</string>
+    <string name="question_7">Which one is the largest?</string>
     <string name="question_1_choice_1">8</string>
     <string name="question_1_choice_2">12</string>
     <string name="question_1_choice_3">7</string>
@@ -24,8 +24,8 @@
     <string name="question_5_choice_3">Le Corbusier</string>
     <string name="question_5_choice_4">I. M. Pei. </string>
     <string name="question_7_choice_1">Saint Paul\'s in London</string>
-    <string name="question_7_choice_2">Santa Maria del Fiore in Firenze</string>
-    <string name="question_7_choice_3">Saint Peter\'s in Roma</string>
+    <string name="question_7_choice_3">Santa Maria del Fiore in Firenze</string>
+    <string name="question_7_choice_2">Saint Peter\'s in Roma</string>
     <string name="question_7_choice_4">Notre Dame in Paris</string>
     <string name="submitButton">Get your score!</string>
     <string name="scoreMessage">You got: %d  out of 7,</string>
